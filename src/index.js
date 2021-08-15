@@ -7,7 +7,7 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>,
+    </HashRouter>,
     document.getElementById('root'));
