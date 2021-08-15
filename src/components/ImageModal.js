@@ -5,10 +5,6 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 
-
-import knowledgeAreaAndTasks from '../components/202.png';
-
-
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
@@ -27,11 +23,6 @@ const useStyles = makeStyles((theme) => ({
 export default function ImageModal(props) {
   const classes = useStyles();
   
-
-  const handleClose = () => {
-      //setOpen(false);
-    
-  };
 
   function closeModal(){
       props.onClose();

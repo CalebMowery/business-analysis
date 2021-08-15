@@ -1,7 +1,7 @@
-import ImageModal from '../components/ImageModal';
+
 
 function HomePage(){
-    return <div><h1>All Meetups Page</h1>
+    return <div><h1>Business Analysis Intel</h1>
         
     </div>
 }

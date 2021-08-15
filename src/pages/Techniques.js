@@ -1,11 +1,9 @@
 import techniquesMindMap from '../components/203.png';
 import knowledgeAreaAndTasks from '../components/202.png';
-import s2 from '../components/203.png';
-import Card from '../components/Card';
-import SimpleCard from '../components/Card';
+
 import ImgMediaCard from '../components/Card';
 import ImageModal from '../components/ImageModal';
-import { useState } from 'react';
+
 
 function openImage(s){
     <ImageModal src={s} />
