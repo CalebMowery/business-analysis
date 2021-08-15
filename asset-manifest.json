@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/business-analysis/static/css/main.a8c15e64.chunk.css",
+    "main.js": "/business-analysis/static/js/main.63470a01.chunk.js",
+    "main.js.map": "/business-analysis/static/js/main.63470a01.chunk.js.map",
+    "runtime-main.js": "/business-analysis/static/js/runtime-main.42fc4cdc.js",
+    "runtime-main.js.map": "/business-analysis/static/js/runtime-main.42fc4cdc.js.map",
+    "static/js/2.d77e1435.chunk.js": "/business-analysis/static/js/2.d77e1435.chunk.js",
+    "static/js/2.d77e1435.chunk.js.map": "/business-analysis/static/js/2.d77e1435.chunk.js.map",
+    "index.html": "/business-analysis/index.html",
+    "static/css/main.a8c15e64.chunk.css.map": "/business-analysis/static/css/main.a8c15e64.chunk.css.map",
+    "static/js/2.d77e1435.chunk.js.LICENSE.txt": "/business-analysis/static/js/2.d77e1435.chunk.js.LICENSE.txt",
+    "static/media/202.a0ca5acd.png": "/business-analysis/static/media/202.a0ca5acd.png",
+    "static/media/203.02110ecd.png": "/business-analysis/static/media/203.02110ecd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42fc4cdc.js",
+    "static/js/2.d77e1435.chunk.js",
+    "static/css/main.a8c15e64.chunk.css",
+    "static/js/main.63470a01.chunk.js"
+  ]
+}
