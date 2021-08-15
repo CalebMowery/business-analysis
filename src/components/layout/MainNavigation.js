@@ -21,14 +21,14 @@ export default function MainNavigation() {
 
   return (
     <div>
-    <Link to='/'>
-        <Button >
-            <HomeIcon />
-        </Button>
-    </Link>
       <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
         <MenuIcon />
       </Button>
+      <Link to='/'>
+        <Button >
+            <h1 >Business Analysis Basics</h1>
+        </Button>
+    </Link>
       <Menu
         id="simple-menu"
         anchorEl={anchorEl}

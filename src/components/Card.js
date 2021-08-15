@@ -15,9 +15,7 @@ import ImageModal from './ImageModal';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
-    maxHeight: 600,
-    margin: 20,
+   
   },
 });
 
@@ -37,14 +35,16 @@ export default function ImgMediaCard(props) {
   return (
       <div>
           
-    <Card className={classes.root}>
+    <Card className="card">
       <CardActionArea onClick={openModal}>
         <CardMedia
+          
           component="img"
           alt={props.alt}
           height="140"
           image={props.src}
           title={props.imageTitle}
+          className="card-media"
           
         />
         

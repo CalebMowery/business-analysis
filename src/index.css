@@ -7,17 +7,23 @@
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-color: rgb(243, 241, 237);
+  background-color: rgb(245, 244, 241);
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #2c292b;
+  margin: 0px;
+  padding: 1.5rem;
 }
 
 h2 {
   font-size: 1.5rem;
   color: #2c292b;
+}
+
+h2.content{
+  text-align: center;
 }
 
 .inputText{
@@ -26,7 +32,6 @@ h2 {
 
 img{
   width: 50%;
-  margin: 1.5rem;
 }
 
 .backdrop {
@@ -37,4 +42,22 @@ img{
   height: 100vh;
   top: 0;
   left: 0;
+}
+
+.grid {
+  padding-left: 10%;
+  padding-right: 10%;
+  box-align: center;
+}
+
+.card {
+  width: 345;
+  max-width: 600;
+  margin: 20;
+  box-align: center;
+  margin: 1.5rem;  
+}
+
+.card-media {
+
 }
