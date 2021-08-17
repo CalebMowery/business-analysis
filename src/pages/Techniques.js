@@ -1,5 +1,6 @@
 import techniquesMindMap from '../components/203.png';
 import knowledgeAreaAndTasks from '../components/202.png';
+import contextDiag from '../components/ContextDiag.png';
 
 import ImgMediaCard from '../components/Card';
 import ImageModal from '../components/ImageModal';
@@ -26,7 +27,7 @@ function TechniquesPage(props) {
                 className="grid">
                 <ImgMediaCard src={techniquesMindMap} title="Techniques Mind Map" description="See how business analysis techniques link together" content="this is the content"/>
                 <ImgMediaCard src={techniquesMindMap} title="Techniques Mind Map" description="See how business analysis techniques link together" content="this is the content"/>
-                <ImgMediaCard src={techniquesMindMap} title="Techniques Mind Map" description="See how business analysis techniques link together" content="this is the content"/>
+                <ImgMediaCard src={contextDiag} title="Diagraming" description="Complex Communication Made Easy" content="See how complicated communication can be easy and expedient."/>
                 <ImgMediaCard src={techniquesMindMap} title="Techniques Mind Map" description="See how business analysis techniques link together" content="this is the content"/>
                 <ImgMediaCard src={knowledgeAreaAndTasks} title="knowledge areas and tasks" description="description of the card" content="content of full explanation"/>
                 </Grid>
